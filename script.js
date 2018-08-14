@@ -237,7 +237,7 @@ number31.appendChild(result31)
 
 //number 32
 
-lotrCitiesArray.unshift("Rohan")
+lotrCitiesArray.unshift("Gondor")
 let number32 = document.getElementById("number32")
 let result32 = document.createTextNode(JSON.stringify(lotrCitiesArray))
 number32.appendChild(result32)
