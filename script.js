@@ -7,7 +7,7 @@ const bestThing = "The best thing about a boolean is even if you are wrong you a
 
 
 let number1 = document.getElementById("number1")
-let result1 = document.createTextNode(JSON.stringify(gotCitiesCSV))
+let result1 = document.createTextNode(JSON.stringify(gotCitiesCSV.split(",")))
 number1.appendChild(result1)
 
 //number 2
@@ -223,7 +223,7 @@ number29.appendChild(result29)
 
 //number 30
 
-lotrCitiesArray.push("Rohan")
+lotrCitiesArray.push("Deadest Marshes")
 let number30 = document.getElementById("number30")
 let result30 = document.createTextNode(JSON.stringify(lotrCitiesArray))
 number30.appendChild(result30)
